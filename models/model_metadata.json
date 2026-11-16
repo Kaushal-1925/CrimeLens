@@ -1,0 +1,66 @@
+{
+    "project_name": "Crime Detection Using NLP",
+    "selected_model": "Multinomial Naive Bayes",
+    "algorithm": "Multinomial Naive Bayes",
+    "best_hyperparameters": {
+        "clf__alpha": 1.0
+    },
+    "training_date": "2026-11-15 17:19:42",
+    "vectorizer_settings": {
+        "max_features": 5000,
+        "ngram_range": [
+            1,
+            2
+        ],
+        "min_df": 2,
+        "norm": "l2"
+    },
+    "dataset_statistics": {
+        "total_raw_records": 7124,
+        "raw_crime_records": 3562,
+        "raw_non_crime_records": 3562,
+        "missing_titles_removed": 1,
+        "duplicates_removed": 7,
+        "total_cleaned_records": 7116,
+        "cleaned_crime_records": 3557,
+        "cleaned_non_crime_records": 3559,
+        "training_records": 5692,
+        "testing_records": 1424,
+        "train_test_split_ratio": "80:20 (Stratified)"
+    },
+    "test_evaluation_metrics": {
+        "Multinomial Naive Bayes": {
+            "Accuracy": 0.8967696629213483,
+            "Precision": 0.8907330567081605,
+            "Recall": 0.9044943820224719,
+            "F1-Score": 0.8975609756097561,
+            "ROC-AUC": 0.9552465361065522,
+            "True Negatives": 633.0,
+            "False Positives": 79.0,
+            "False Negatives": 68.0,
+            "True Positives": 644.0
+        },
+        "Linear SVM": {
+            "Accuracy": 0.8904494382022472,
+            "Precision": 0.8971428571428571,
+            "Recall": 0.8820224719101124,
+            "F1-Score": 0.8895184135977338,
+            "ROC-AUC": 0.9515419849135209,
+            "True Negatives": 640.0,
+            "False Positives": 72.0,
+            "False Negatives": 84.0,
+            "True Positives": 628.0
+        },
+        "Logistic Regression": {
+            "Accuracy": 0.8834269662921348,
+            "Precision": 0.90625,
+            "Recall": 0.8553370786516854,
+            "F1-Score": 0.880057803468208,
+            "ROC-AUC": 0.9508910254387073,
+            "True Negatives": 649.0,
+            "False Positives": 63.0,
+            "False Negatives": 103.0,
+            "True Positives": 609.0
+        }
+    }
+}

@@ -1,0 +1,12 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure binary files are treated strictly as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.joblib binary
+*.zip binary
+*.ico binary
+*.pkl binary
